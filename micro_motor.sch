@@ -457,128 +457,128 @@ In this library the device names are the same as the pin names of the symbols, t
 </class>
 </classes>
 <parts>
-<part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H5" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H6" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H7" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H8" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="0" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="5" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="6" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="COMMON_GND" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
-<part name="H9" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H10" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H11" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H12" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H13" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H14" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H15" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H16" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H17" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H18" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H19" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H20" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H21" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H22" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H23" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H24" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H25" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H26" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H27" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H28" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H29" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H30" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H31" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H32" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H33" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H34" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H35" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H36" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H37" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H38" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H39" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H40" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H41" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H42" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H43" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H44" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H45" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H46" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H47" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H48" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H49" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H50" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H51" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H52" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H53" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H54" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H55" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="H56" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="7" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="8" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="9" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="11" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="12" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="13" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="27" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="26" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="25" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="24" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="23" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="22" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="21" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="20" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="19" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="18" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="17" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="16" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="15" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="14" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="M1_ENABLE" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="M1_FORWARD_PWN" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="M1_LEFT" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="GND_LEFT_MOTOR_DRIVER" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="GND_LEFT_MOTOR_DRIVER_2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="M1_LEFT_2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="M1_REVERSE_PWN" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="MOTOR_POWER_L" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="MOTOR_POWER_R" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="M2_REVERSE_PWN" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="M2_RIGHT" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="GND_RIGHT_MOTOR_DRIVER" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="GND_RIGHT_MOTOR_DRIVER_2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="M2_RIGHT_2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="M2_FORWARD_PWN" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="M2_ENABLE" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="GND_LEFT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="OUTB_LEFT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="OUTA_LEFT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="VCC_LEF_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="M2_LEFT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="M!_LEFT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="GND_RIGHT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="OUTB_RIGHT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="OUTA_RIGHT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="VCC_RIGHT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="M2_RIGHT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="M1_RIGHT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="H1" gate="G$1" x="83.82" y="78.74"/>
-<instance part="H2" gate="G$1" x="83.82" y="71.12"/>
-<instance part="H3" gate="G$1" x="83.82" y="63.5"/>
-<instance part="H4" gate="G$1" x="83.82" y="55.88"/>
-<instance part="H5" gate="G$1" x="83.82" y="48.26"/>
-<instance part="H6" gate="G$1" x="83.82" y="40.64"/>
-<instance part="H7" gate="G$1" x="83.82" y="33.02"/>
-<instance part="H8" gate="G$1" x="83.82" y="25.4"/>
-<instance part="GND1" gate="1" x="68.58" y="-35.56"/>
+<instance part="GND" gate="G$1" x="83.82" y="78.74"/>
+<instance part="0" gate="G$1" x="83.82" y="71.12"/>
+<instance part="1" gate="G$1" x="83.82" y="63.5"/>
+<instance part="2" gate="G$1" x="83.82" y="55.88"/>
+<instance part="3" gate="G$1" x="83.82" y="48.26"/>
+<instance part="4" gate="G$1" x="83.82" y="40.64"/>
+<instance part="5" gate="G$1" x="83.82" y="33.02"/>
+<instance part="6" gate="G$1" x="83.82" y="25.4"/>
+<instance part="COMMON_GND" gate="1" x="68.58" y="-35.56"/>
 <instance part="SUPPLY1" gate="G$1" x="213.36" y="86.36"/>
-<instance part="H9" gate="G$1" x="83.82" y="17.78"/>
-<instance part="H10" gate="G$1" x="83.82" y="10.16"/>
-<instance part="H11" gate="G$1" x="83.82" y="2.54"/>
-<instance part="H12" gate="G$1" x="83.82" y="-5.08"/>
-<instance part="H13" gate="G$1" x="83.82" y="-12.7"/>
-<instance part="H14" gate="G$1" x="83.82" y="-20.32"/>
-<instance part="H15" gate="G$1" x="137.16" y="78.74"/>
-<instance part="H16" gate="G$1" x="137.16" y="71.12"/>
-<instance part="H17" gate="G$1" x="137.16" y="63.5"/>
-<instance part="H18" gate="G$1" x="137.16" y="55.88"/>
-<instance part="H19" gate="G$1" x="137.16" y="48.26"/>
-<instance part="H20" gate="G$1" x="137.16" y="40.64"/>
-<instance part="H21" gate="G$1" x="137.16" y="33.02"/>
-<instance part="H22" gate="G$1" x="137.16" y="25.4"/>
-<instance part="H23" gate="G$1" x="137.16" y="17.78"/>
-<instance part="H24" gate="G$1" x="137.16" y="10.16"/>
-<instance part="H25" gate="G$1" x="137.16" y="2.54"/>
-<instance part="H26" gate="G$1" x="137.16" y="-5.08"/>
-<instance part="H27" gate="G$1" x="137.16" y="-12.7"/>
-<instance part="H28" gate="G$1" x="137.16" y="-20.32"/>
-<instance part="H29" gate="G$1" x="99.06" y="-38.1"/>
-<instance part="H30" gate="G$1" x="99.06" y="-45.72"/>
-<instance part="H31" gate="G$1" x="99.06" y="-53.34"/>
-<instance part="H32" gate="G$1" x="99.06" y="-60.96"/>
-<instance part="H33" gate="G$1" x="99.06" y="-68.58"/>
-<instance part="H34" gate="G$1" x="99.06" y="-76.2"/>
-<instance part="H35" gate="G$1" x="99.06" y="-83.82"/>
-<instance part="H36" gate="G$1" x="99.06" y="-91.44"/>
-<instance part="H37" gate="G$1" x="137.16" y="-38.1"/>
-<instance part="H38" gate="G$1" x="137.16" y="-45.72"/>
-<instance part="H39" gate="G$1" x="137.16" y="-53.34"/>
-<instance part="H40" gate="G$1" x="137.16" y="-60.96"/>
-<instance part="H41" gate="G$1" x="137.16" y="-68.58"/>
-<instance part="H42" gate="G$1" x="137.16" y="-76.2"/>
-<instance part="H43" gate="G$1" x="137.16" y="-83.82"/>
-<instance part="H44" gate="G$1" x="137.16" y="-91.44"/>
-<instance part="H45" gate="G$1" x="-48.26" y="7.62"/>
-<instance part="H46" gate="G$1" x="-48.26" y="0"/>
-<instance part="H47" gate="G$1" x="-48.26" y="-7.62"/>
-<instance part="H48" gate="G$1" x="-48.26" y="-15.24"/>
-<instance part="H49" gate="G$1" x="-48.26" y="-22.86"/>
-<instance part="H50" gate="G$1" x="-48.26" y="-30.48"/>
-<instance part="H51" gate="G$1" x="271.78" y="10.16"/>
-<instance part="H52" gate="G$1" x="271.78" y="2.54"/>
-<instance part="H53" gate="G$1" x="271.78" y="-5.08"/>
-<instance part="H54" gate="G$1" x="271.78" y="-12.7"/>
-<instance part="H55" gate="G$1" x="271.78" y="-20.32"/>
-<instance part="H56" gate="G$1" x="271.78" y="-27.94"/>
+<instance part="7" gate="G$1" x="83.82" y="17.78"/>
+<instance part="8" gate="G$1" x="83.82" y="10.16"/>
+<instance part="9" gate="G$1" x="83.82" y="2.54"/>
+<instance part="11" gate="G$1" x="83.82" y="-5.08"/>
+<instance part="12" gate="G$1" x="83.82" y="-12.7"/>
+<instance part="13" gate="G$1" x="83.82" y="-20.32"/>
+<instance part="27" gate="G$1" x="137.16" y="78.74"/>
+<instance part="26" gate="G$1" x="137.16" y="71.12"/>
+<instance part="25" gate="G$1" x="137.16" y="63.5"/>
+<instance part="24" gate="G$1" x="137.16" y="55.88"/>
+<instance part="23" gate="G$1" x="137.16" y="48.26"/>
+<instance part="22" gate="G$1" x="137.16" y="40.64"/>
+<instance part="21" gate="G$1" x="137.16" y="33.02"/>
+<instance part="20" gate="G$1" x="137.16" y="25.4"/>
+<instance part="19" gate="G$1" x="137.16" y="17.78"/>
+<instance part="18" gate="G$1" x="137.16" y="10.16"/>
+<instance part="17" gate="G$1" x="137.16" y="2.54"/>
+<instance part="16" gate="G$1" x="137.16" y="-5.08"/>
+<instance part="15" gate="G$1" x="137.16" y="-12.7"/>
+<instance part="14" gate="G$1" x="137.16" y="-20.32"/>
+<instance part="M1_ENABLE" gate="G$1" x="99.06" y="-38.1"/>
+<instance part="M1_FORWARD_PWN" gate="G$1" x="99.06" y="-45.72"/>
+<instance part="M1_LEFT" gate="G$1" x="99.06" y="-53.34"/>
+<instance part="GND_LEFT_MOTOR_DRIVER" gate="G$1" x="99.06" y="-60.96"/>
+<instance part="GND_LEFT_MOTOR_DRIVER_2" gate="G$1" x="99.06" y="-68.58"/>
+<instance part="M1_LEFT_2" gate="G$1" x="99.06" y="-76.2"/>
+<instance part="M1_REVERSE_PWN" gate="G$1" x="99.06" y="-83.82"/>
+<instance part="MOTOR_POWER_L" gate="G$1" x="99.06" y="-91.44"/>
+<instance part="MOTOR_POWER_R" gate="G$1" x="137.16" y="-38.1"/>
+<instance part="M2_REVERSE_PWN" gate="G$1" x="137.16" y="-45.72"/>
+<instance part="M2_RIGHT" gate="G$1" x="137.16" y="-53.34"/>
+<instance part="GND_RIGHT_MOTOR_DRIVER" gate="G$1" x="137.16" y="-60.96"/>
+<instance part="GND_RIGHT_MOTOR_DRIVER_2" gate="G$1" x="137.16" y="-68.58"/>
+<instance part="M2_RIGHT_2" gate="G$1" x="137.16" y="-76.2"/>
+<instance part="M2_FORWARD_PWN" gate="G$1" x="137.16" y="-83.82"/>
+<instance part="M2_ENABLE" gate="G$1" x="137.16" y="-91.44"/>
+<instance part="GND_LEFT_ENC" gate="G$1" x="-48.26" y="7.62"/>
+<instance part="OUTB_LEFT_ENC" gate="G$1" x="-48.26" y="0"/>
+<instance part="OUTA_LEFT_ENC" gate="G$1" x="-48.26" y="-7.62"/>
+<instance part="VCC_LEF_ENC" gate="G$1" x="-48.26" y="-15.24"/>
+<instance part="M2_LEFT_ENC" gate="G$1" x="-48.26" y="-22.86"/>
+<instance part="M!_LEFT_ENC" gate="G$1" x="-48.26" y="-30.48"/>
+<instance part="GND_RIGHT_ENC" gate="G$1" x="271.78" y="10.16"/>
+<instance part="OUTB_RIGHT_ENC" gate="G$1" x="271.78" y="2.54"/>
+<instance part="OUTA_RIGHT_ENC" gate="G$1" x="271.78" y="-5.08"/>
+<instance part="VCC_RIGHT_ENC" gate="G$1" x="271.78" y="-12.7"/>
+<instance part="M2_RIGHT_ENC" gate="G$1" x="271.78" y="-20.32"/>
+<instance part="M1_RIGHT_ENC" gate="G$1" x="271.78" y="-27.94"/>
 </instances>
 <busses>
 </busses>
@@ -586,14 +586,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="VCC" class="0">
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-<pinref part="H15" gate="G$1" pin="MOUNT"/>
+<pinref part="27" gate="G$1" pin="MOUNT"/>
 <wire x1="213.36" y1="83.82" x2="213.36" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="78.74" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="78.74" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="78.74" x2="190.5" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="73.66" x2="200.66" y2="73.66" width="0.1524" layer="91"/>
 <junction x="190.5" y="78.74"/>
-<pinref part="H48" gate="G$1" pin="MOUNT"/>
+<pinref part="VCC_LEF_ENC" gate="G$1" pin="MOUNT"/>
 <wire x1="200.66" y1="73.66" x2="213.36" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="73.66" x2="218.44" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="73.66" x2="220.98" y2="73.66" width="0.1524" layer="91"/>
@@ -601,16 +601,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-50.8" y1="-15.24" x2="218.44" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="-15.24" x2="218.44" y2="73.66" width="0.1524" layer="91"/>
 <junction x="218.44" y="73.66"/>
-<pinref part="H36" gate="G$1" pin="MOUNT"/>
+<pinref part="MOTOR_POWER_L" gate="G$1" pin="MOUNT"/>
 <wire x1="96.52" y1="-91.44" x2="96.52" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="-124.46" x2="213.36" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="-124.46" x2="213.36" y2="73.66" width="0.1524" layer="91"/>
 <junction x="213.36" y="73.66"/>
-<pinref part="H54" gate="G$1" pin="MOUNT"/>
+<pinref part="VCC_RIGHT_ENC" gate="G$1" pin="MOUNT"/>
 <wire x1="269.24" y1="-12.7" x2="200.66" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-12.7" x2="200.66" y2="73.66" width="0.1524" layer="91"/>
 <junction x="200.66" y="73.66"/>
-<pinref part="H37" gate="G$1" pin="MOUNT"/>
+<pinref part="MOTOR_POWER_R" gate="G$1" pin="MOUNT"/>
 <wire x1="134.62" y1="-38.1" x2="220.98" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="-38.1" x2="220.98" y2="73.66" width="0.1524" layer="91"/>
 <junction x="220.98" y="73.66"/>
@@ -618,8 +618,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="H45" gate="G$1" pin="MOUNT"/>
-<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="GND_LEFT_ENC" gate="G$1" pin="MOUNT"/>
+<pinref part="COMMON_GND" gate="1" pin="GND"/>
 <wire x1="-50.8" y1="7.62" x2="68.58" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="7.62" x2="68.58" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="-33.02" x2="68.58" y2="-88.9" width="0.1524" layer="91"/>
@@ -627,7 +627,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="68.58" y="-33.02"/>
 <wire x1="10.16" y1="-88.9" x2="7.62" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="-88.9" x2="5.08" y2="-88.9" width="0.1524" layer="91"/>
-<pinref part="H51" gate="G$1" pin="MOUNT"/>
+<pinref part="GND_RIGHT_ENC" gate="G$1" pin="MOUNT"/>
 <wire x1="5.08" y1="-88.9" x2="2.54" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="-88.9" x2="0" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="0" y1="-88.9" x2="-2.54" y2="-88.9" width="0.1524" layer="91"/>
@@ -638,19 +638,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="7.62" y="-88.9"/>
 <wire x1="2.54" y1="-88.9" x2="2.54" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="2.54" y="-88.9"/>
-<pinref part="H32" gate="G$1" pin="MOUNT"/>
+<pinref part="GND_LEFT_MOTOR_DRIVER" gate="G$1" pin="MOUNT"/>
 <wire x1="2.54" y1="-60.96" x2="96.52" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="0" y1="-88.9" x2="0" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="0" y="-88.9"/>
-<pinref part="H33" gate="G$1" pin="MOUNT"/>
+<pinref part="GND_LEFT_MOTOR_DRIVER_2" gate="G$1" pin="MOUNT"/>
 <wire x1="0" y1="-68.58" x2="96.52" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="H40" gate="G$1" pin="MOUNT"/>
+<pinref part="GND_RIGHT_MOTOR_DRIVER" gate="G$1" pin="MOUNT"/>
 <wire x1="134.62" y1="-60.96" x2="129.54" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="-60.96" x2="129.54" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="-106.68" x2="5.08" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-106.68" x2="5.08" y2="-88.9" width="0.1524" layer="91"/>
 <junction x="5.08" y="-88.9"/>
-<pinref part="H41" gate="G$1" pin="MOUNT"/>
+<pinref part="GND_RIGHT_MOTOR_DRIVER_2" gate="G$1" pin="MOUNT"/>
 <wire x1="134.62" y1="-68.58" x2="132.08" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="-68.58" x2="132.08" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="-111.76" x2="10.16" y2="-111.76" width="0.1524" layer="91"/>
@@ -660,134 +660,134 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="H46" gate="G$1" pin="MOUNT"/>
-<pinref part="H2" gate="G$1" pin="MOUNT"/>
+<pinref part="OUTB_LEFT_ENC" gate="G$1" pin="MOUNT"/>
+<pinref part="0" gate="G$1" pin="MOUNT"/>
 <wire x1="-50.8" y1="0" x2="-50.8" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="71.12" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="H47" gate="G$1" pin="MOUNT"/>
-<pinref part="H3" gate="G$1" pin="MOUNT"/>
+<pinref part="OUTA_LEFT_ENC" gate="G$1" pin="MOUNT"/>
+<pinref part="1" gate="G$1" pin="MOUNT"/>
 <wire x1="-50.8" y1="-7.62" x2="-50.8" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="63.5" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="H5" gate="G$1" pin="MOUNT"/>
+<pinref part="3" gate="G$1" pin="MOUNT"/>
 <wire x1="81.28" y1="48.26" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="48.26" x2="48.26" y2="-45.72" width="0.1524" layer="91"/>
-<pinref part="H30" gate="G$1" pin="MOUNT"/>
+<pinref part="M1_FORWARD_PWN" gate="G$1" pin="MOUNT"/>
 <wire x1="48.26" y1="-45.72" x2="96.52" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="H6" gate="G$1" pin="MOUNT"/>
+<pinref part="4" gate="G$1" pin="MOUNT"/>
 <wire x1="81.28" y1="40.64" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="40.64" x2="58.42" y2="-83.82" width="0.1524" layer="91"/>
-<pinref part="H35" gate="G$1" pin="MOUNT"/>
+<pinref part="M1_REVERSE_PWN" gate="G$1" pin="MOUNT"/>
 <wire x1="58.42" y1="-83.82" x2="96.52" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="H29" gate="G$1" pin="MOUNT"/>
+<pinref part="M1_ENABLE" gate="G$1" pin="MOUNT"/>
 <wire x1="96.52" y1="-38.1" x2="27.94" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="-38.1" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="H4" gate="G$1" pin="MOUNT"/>
+<pinref part="2" gate="G$1" pin="MOUNT"/>
 <wire x1="27.94" y1="55.88" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="H52" gate="G$1" pin="MOUNT"/>
+<pinref part="OUTB_RIGHT_ENC" gate="G$1" pin="MOUNT"/>
 <wire x1="269.24" y1="2.54" x2="251.46" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="2.54" x2="251.46" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="-27.94" x2="73.66" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="H9" gate="G$1" pin="MOUNT"/>
+<pinref part="7" gate="G$1" pin="MOUNT"/>
 <wire x1="73.66" y1="-27.94" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="17.78" x2="81.28" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="H53" gate="G$1" pin="MOUNT"/>
+<pinref part="OUTA_RIGHT_ENC" gate="G$1" pin="MOUNT"/>
 <wire x1="269.24" y1="-5.08" x2="228.6" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="-5.08" x2="228.6" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="-30.48" x2="78.74" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-30.48" x2="78.74" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="H10" gate="G$1" pin="MOUNT"/>
+<pinref part="8" gate="G$1" pin="MOUNT"/>
 <wire x1="78.74" y1="10.16" x2="81.28" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="H55" gate="G$1" pin="MOUNT"/>
+<pinref part="M2_RIGHT_ENC" gate="G$1" pin="MOUNT"/>
 <wire x1="269.24" y1="-20.32" x2="241.3" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-20.32" x2="241.3" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="H39" gate="G$1" pin="MOUNT"/>
+<pinref part="M2_RIGHT" gate="G$1" pin="MOUNT"/>
 <wire x1="241.3" y1="-53.34" x2="134.62" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="H56" gate="G$1" pin="MOUNT"/>
+<pinref part="M1_RIGHT_ENC" gate="G$1" pin="MOUNT"/>
 <wire x1="269.24" y1="-27.94" x2="256.54" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="-27.94" x2="256.54" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="-81.28" x2="248.92" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="-81.28" x2="248.92" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="H42" gate="G$1" pin="MOUNT"/>
+<pinref part="M2_RIGHT_2" gate="G$1" pin="MOUNT"/>
 <wire x1="248.92" y1="-76.2" x2="134.62" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="H49" gate="G$1" pin="MOUNT"/>
+<pinref part="M2_LEFT_ENC" gate="G$1" pin="MOUNT"/>
 <wire x1="-50.8" y1="-22.86" x2="-63.5" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="-22.86" x2="-63.5" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="H31" gate="G$1" pin="MOUNT"/>
+<pinref part="M1_LEFT" gate="G$1" pin="MOUNT"/>
 <wire x1="-63.5" y1="-53.34" x2="96.52" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="H50" gate="G$1" pin="MOUNT"/>
+<pinref part="M!_LEFT_ENC" gate="G$1" pin="MOUNT"/>
 <wire x1="-50.8" y1="-30.48" x2="-50.8" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="H34" gate="G$1" pin="MOUNT"/>
+<pinref part="M1_LEFT_2" gate="G$1" pin="MOUNT"/>
 <wire x1="-50.8" y1="-76.2" x2="96.52" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="H44" gate="G$1" pin="MOUNT"/>
+<pinref part="M2_ENABLE" gate="G$1" pin="MOUNT"/>
 <wire x1="134.62" y1="-91.44" x2="134.62" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="-99.06" x2="187.96" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="-99.06" x2="187.96" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="H19" gate="G$1" pin="MOUNT"/>
+<pinref part="23" gate="G$1" pin="MOUNT"/>
 <wire x1="187.96" y1="45.72" x2="134.62" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="45.72" x2="134.62" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="H38" gate="G$1" pin="MOUNT"/>
+<pinref part="M2_REVERSE_PWN" gate="G$1" pin="MOUNT"/>
 <wire x1="134.62" y1="-45.72" x2="66.04" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="-45.72" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="H7" gate="G$1" pin="MOUNT"/>
+<pinref part="5" gate="G$1" pin="MOUNT"/>
 <wire x1="66.04" y1="33.02" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="H43" gate="G$1" pin="MOUNT"/>
+<pinref part="M2_FORWARD_PWN" gate="G$1" pin="MOUNT"/>
 <wire x1="134.62" y1="-83.82" x2="124.46" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="-83.82" x2="124.46" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="-33.02" x2="71.12" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="-33.02" x2="71.12" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="H8" gate="G$1" pin="MOUNT"/>
+<pinref part="6" gate="G$1" pin="MOUNT"/>
 <wire x1="71.12" y1="25.4" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
