@@ -470,10 +470,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="7" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
 <part name="8" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
 <part name="9" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="10" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
 <part name="11" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
 <part name="12" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="13" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="27" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
 <part name="26" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
 <part name="25" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
 <part name="24" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
@@ -487,6 +486,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="16" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
 <part name="15" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
 <part name="14" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="13" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
 <part name="M1_ENABLE" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
 <part name="M1_FORWARD_PWN" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
 <part name="M1_LEFT" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
@@ -534,23 +534,23 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="7" gate="G$1" x="83.82" y="17.78"/>
 <instance part="8" gate="G$1" x="83.82" y="10.16"/>
 <instance part="9" gate="G$1" x="83.82" y="2.54"/>
-<instance part="11" gate="G$1" x="83.82" y="-5.08"/>
-<instance part="12" gate="G$1" x="83.82" y="-12.7"/>
-<instance part="13" gate="G$1" x="83.82" y="-20.32"/>
-<instance part="27" gate="G$1" x="137.16" y="78.74"/>
-<instance part="26" gate="G$1" x="137.16" y="71.12"/>
-<instance part="25" gate="G$1" x="137.16" y="63.5"/>
-<instance part="24" gate="G$1" x="137.16" y="55.88"/>
-<instance part="23" gate="G$1" x="137.16" y="48.26"/>
-<instance part="22" gate="G$1" x="137.16" y="40.64"/>
-<instance part="21" gate="G$1" x="137.16" y="33.02"/>
-<instance part="20" gate="G$1" x="137.16" y="25.4"/>
-<instance part="19" gate="G$1" x="137.16" y="17.78"/>
-<instance part="18" gate="G$1" x="137.16" y="10.16"/>
-<instance part="17" gate="G$1" x="137.16" y="2.54"/>
-<instance part="16" gate="G$1" x="137.16" y="-5.08"/>
-<instance part="15" gate="G$1" x="137.16" y="-12.7"/>
-<instance part="14" gate="G$1" x="137.16" y="-20.32"/>
+<instance part="10" gate="G$1" x="83.82" y="-5.08"/>
+<instance part="11" gate="G$1" x="83.82" y="-12.7"/>
+<instance part="12" gate="G$1" x="83.82" y="-20.32"/>
+<instance part="26" gate="G$1" x="137.16" y="78.74"/>
+<instance part="25" gate="G$1" x="137.16" y="71.12"/>
+<instance part="24" gate="G$1" x="137.16" y="63.5"/>
+<instance part="23" gate="G$1" x="137.16" y="55.88"/>
+<instance part="22" gate="G$1" x="137.16" y="48.26"/>
+<instance part="21" gate="G$1" x="137.16" y="40.64"/>
+<instance part="20" gate="G$1" x="137.16" y="33.02"/>
+<instance part="19" gate="G$1" x="137.16" y="25.4"/>
+<instance part="18" gate="G$1" x="137.16" y="17.78"/>
+<instance part="17" gate="G$1" x="137.16" y="10.16"/>
+<instance part="16" gate="G$1" x="137.16" y="2.54"/>
+<instance part="15" gate="G$1" x="137.16" y="-5.08"/>
+<instance part="14" gate="G$1" x="137.16" y="-12.7"/>
+<instance part="13" gate="G$1" x="137.16" y="-20.32"/>
 <instance part="M1_ENABLE" gate="G$1" x="99.06" y="-38.1"/>
 <instance part="M1_FORWARD_PWN" gate="G$1" x="99.06" y="-45.72"/>
 <instance part="M1_LEFT" gate="G$1" x="99.06" y="-53.34"/>
@@ -586,7 +586,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="VCC" class="0">
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-<pinref part="27" gate="G$1" pin="MOUNT"/>
+<pinref part="26" gate="G$1" pin="MOUNT"/>
 <wire x1="213.36" y1="83.82" x2="213.36" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="78.74" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="78.74" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
@@ -656,6 +656,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="132.08" y1="-111.76" x2="10.16" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="-111.76" x2="10.16" y2="-88.9" width="0.1524" layer="91"/>
 <junction x="10.16" y="-88.9"/>
+<pinref part="GND" gate="G$1" pin="MOUNT"/>
+<wire x1="81.28" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="78.74" x2="68.58" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -766,7 +769,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="134.62" y1="-91.44" x2="134.62" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="-99.06" x2="187.96" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="-99.06" x2="187.96" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="23" gate="G$1" pin="MOUNT"/>
+<pinref part="22" gate="G$1" pin="MOUNT"/>
 <wire x1="187.96" y1="45.72" x2="134.62" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="45.72" x2="134.62" y2="48.26" width="0.1524" layer="91"/>
 </segment>

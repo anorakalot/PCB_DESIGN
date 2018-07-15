@@ -283,29 +283,29 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="GND" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="83.82" y="8.89"/>
-<element name="8" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="68.58" y="16.51"/>
-<element name="9" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="60.96" y="16.51"/>
-<element name="11" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="53.34" y="16.51"/>
-<element name="12" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="45.72" y="16.51"/>
-<element name="13" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="38.1" y="16.51"/>
-<element name="27" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="83.82" y="24.13"/>
-<element name="26" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="76.2" y="24.13"/>
-<element name="25" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="68.58" y="24.13"/>
-<element name="24" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="60.96" y="24.13"/>
-<element name="23" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="53.34" y="24.13"/>
-<element name="0" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="76.2" y="8.89"/>
-<element name="22" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="45.72" y="24.13"/>
-<element name="21" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="38.1" y="24.13"/>
-<element name="20" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="83.82" y="31.75"/>
-<element name="19" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="76.2" y="31.75"/>
-<element name="18" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="68.58" y="31.75"/>
-<element name="17" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="60.96" y="31.75"/>
-<element name="16" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="53.34" y="31.75"/>
-<element name="15" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="45.72" y="31.75"/>
-<element name="14" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="38.1" y="31.75"/>
+<element name="GND" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="21.59" y="67.31"/>
+<element name="8" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="21.59" y="2.54"/>
+<element name="9" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="30.48" y="2.54"/>
+<element name="10" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="38.1" y="2.54"/>
+<element name="11" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="45.72" y="16.51"/>
+<element name="12" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="38.1" y="16.51"/>
+<element name="26" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="83.82" y="24.13"/>
+<element name="25" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="76.2" y="24.13"/>
+<element name="24" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="68.58" y="24.13"/>
+<element name="23" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="60.96" y="24.13"/>
+<element name="22" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="53.34" y="24.13"/>
+<element name="0" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="21.59" y="59.69"/>
+<element name="21" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="45.72" y="24.13"/>
+<element name="20" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="38.1" y="24.13"/>
+<element name="19" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="83.82" y="31.75"/>
+<element name="18" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="76.2" y="31.75"/>
+<element name="17" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="68.58" y="31.75"/>
+<element name="16" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="60.96" y="31.75"/>
+<element name="15" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="53.34" y="31.75"/>
+<element name="14" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="45.72" y="31.75"/>
+<element name="13" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="38.1" y="31.75"/>
 <element name="M1_ENABLE" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="83.82" y="39.37"/>
-<element name="1" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="68.58" y="8.89"/>
+<element name="1" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="21.59" y="52.07"/>
 <element name="M1_FORWARD_PWN" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="76.2" y="39.37"/>
 <element name="M1_LEFT" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="68.58" y="39.37"/>
 <element name="GND_LEFT_MOTOR_DRIVER" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="60.96" y="39.37"/>
@@ -316,7 +316,7 @@ design rules under a new name.</description>
 <element name="MOTOR_POWER_R" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="76.2" y="46.99"/>
 <element name="M2_REVERSE_PWN" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="68.58" y="46.99"/>
 <element name="M2_RIGHT" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="60.96" y="46.99"/>
-<element name="2" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="60.96" y="8.89"/>
+<element name="2" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="21.59" y="45.72"/>
 <element name="GND_RIGHT_MOTOR_DRIVER" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="53.34" y="46.99"/>
 <element name="GND_RIGHT_MOTOR_DRIVER_2" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="45.72" y="46.99"/>
 <element name="M2_RIGHT_2" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="38.1" y="46.99"/>
@@ -327,7 +327,7 @@ design rules under a new name.</description>
 <element name="OUTA_LEFT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="53.34" y="54.61"/>
 <element name="VCC_LEF_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="45.72" y="54.61"/>
 <element name="M2_LEFT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="38.1" y="54.61"/>
-<element name="3" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="53.34" y="8.89"/>
+<element name="3" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="21.59" y="38.1"/>
 <element name="M!_LEFT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="83.82" y="62.23"/>
 <element name="GND_RIGHT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="76.2" y="62.23"/>
 <element name="OUTB_RIGHT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="68.58" y="62.23"/>
@@ -335,14 +335,14 @@ design rules under a new name.</description>
 <element name="VCC_RIGHT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="53.34" y="62.23"/>
 <element name="M2_RIGHT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="45.72" y="62.23"/>
 <element name="M1_RIGHT_ENC" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="38.1" y="62.23"/>
-<element name="4" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="45.72" y="8.89"/>
-<element name="5" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="38.1" y="8.89"/>
-<element name="6" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="83.82" y="16.51"/>
-<element name="7" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="76.2" y="16.51"/>
+<element name="4" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="21.59" y="30.48"/>
+<element name="5" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="21.59" y="22.86"/>
+<element name="6" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="21.59" y="16.51"/>
+<element name="7" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="21.59" y="8.89"/>
 </elements>
 <signals>
 <signal name="VCC">
-<contactref element="27" pad="B2,8"/>
+<contactref element="26" pad="B2,8"/>
 <contactref element="VCC_LEF_ENC" pad="B2,8"/>
 <contactref element="MOTOR_POWER_L" pad="B2,8"/>
 <contactref element="VCC_RIGHT_ENC" pad="B2,8"/>
@@ -359,46 +359,48 @@ design rules under a new name.</description>
 <contactref element="GND_LEFT_MOTOR_DRIVER_2" pad="B2,8"/>
 <contactref element="GND_RIGHT_MOTOR_DRIVER" pad="B2,8"/>
 <contactref element="GND_RIGHT_MOTOR_DRIVER_2" pad="B2,8"/>
+<contactref element="GND" pad="B2,8"/>
 <wire x1="68.58" y1="54.61" x2="76.2" y2="62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="60.96" y1="39.37" x2="68.58" y2="54.61" width="0" layer="19" extent="1-1"/>
 <wire x1="53.34" y1="39.37" x2="60.96" y2="39.37" width="0" layer="19" extent="1-1"/>
 <wire x1="53.34" y1="46.99" x2="53.34" y2="39.37" width="0" layer="19" extent="1-1"/>
 <wire x1="45.72" y1="46.99" x2="53.34" y2="46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="67.31" x2="60.96" y2="39.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="OUTB_LEFT_ENC" pad="B2,8"/>
 <contactref element="0" pad="B2,8"/>
-<wire x1="60.96" y1="54.61" x2="76.2" y2="8.89" width="0" layer="19" extent="1-1"/>
+<wire x1="60.96" y1="54.61" x2="21.59" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="OUTA_LEFT_ENC" pad="B2,8"/>
 <contactref element="1" pad="B2,8"/>
-<wire x1="53.34" y1="54.61" x2="68.58" y2="8.89" width="0" layer="19" extent="1-1"/>
+<wire x1="53.34" y1="54.61" x2="21.59" y2="52.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="3" pad="B2,8"/>
 <contactref element="M1_FORWARD_PWN" pad="B2,8"/>
-<wire x1="76.2" y1="39.37" x2="53.34" y2="8.89" width="0" layer="19" extent="1-1"/>
+<wire x1="76.2" y1="39.37" x2="21.59" y2="38.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="4" pad="B2,8"/>
 <contactref element="M1_REVERSE_PWN" pad="B2,8"/>
-<wire x1="38.1" y1="39.37" x2="45.72" y2="8.89" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="39.37" x2="21.59" y2="30.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="M1_ENABLE" pad="B2,8"/>
 <contactref element="2" pad="B2,8"/>
-<wire x1="83.82" y1="39.37" x2="60.96" y2="8.89" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="39.37" x2="21.59" y2="45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="OUTB_RIGHT_ENC" pad="B2,8"/>
 <contactref element="7" pad="B2,8"/>
-<wire x1="76.2" y1="16.51" x2="68.58" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="8.89" x2="68.58" y2="62.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="OUTA_RIGHT_ENC" pad="B2,8"/>
 <contactref element="8" pad="B2,8"/>
-<wire x1="60.96" y1="62.23" x2="68.58" y2="16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="60.96" y1="62.23" x2="21.59" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="M2_RIGHT_ENC" pad="B2,8"/>
@@ -422,18 +424,18 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$13">
 <contactref element="M2_ENABLE" pad="B2,8"/>
-<contactref element="23" pad="B2,8"/>
+<contactref element="22" pad="B2,8"/>
 <wire x1="76.2" y1="54.61" x2="53.34" y2="24.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="M2_REVERSE_PWN" pad="B2,8"/>
 <contactref element="5" pad="B2,8"/>
-<wire x1="68.58" y1="46.99" x2="38.1" y2="8.89" width="0" layer="19" extent="1-1"/>
+<wire x1="68.58" y1="46.99" x2="21.59" y2="22.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="M2_FORWARD_PWN" pad="B2,8"/>
 <contactref element="6" pad="B2,8"/>
-<wire x1="83.82" y1="16.51" x2="83.82" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="16.51" x2="83.82" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
