@@ -5082,6 +5082,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="73.66" y1="15.24" x2="78.74" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="91.44" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
+<junction x="73.66" y="10.16"/>
 </segment>
 </net>
 <net name="N$17" class="0">
