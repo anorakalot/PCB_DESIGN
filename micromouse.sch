@@ -6436,6 +6436,49 @@ naming: grid - package width</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="VOLTAGE_REGULATOR">
+<packages>
+<package name="VOLTAGE_REGULATOR">
+<pad name="P$1" x="-1.27" y="0" drill="0.6" shape="square"/>
+<pad name="P$2" x="0" y="0" drill="0.6" shape="square"/>
+<pad name="P$3" x="1.27" y="0" drill="0.6" shape="square"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="VOLTAGE_REGULATOR">
+<pin name="VOUT" x="-17.78" y="12.7" length="middle" rot="R270"/>
+<pin name="GND" x="-15.24" y="12.7" length="middle" rot="R270"/>
+<pin name="VIN" x="-12.7" y="12.7" length="middle" rot="R270"/>
+<wire x1="-20.32" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="2.54" x2="-20.32" y2="7.62" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="VOLTAGE_REGULATOR">
+<gates>
+<gate name="G$1" symbol="VOLTAGE_REGULATOR" x="15.24" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="VOLTAGE_REGULATOR">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$2"/>
+<connect gate="G$1" pin="VIN" pad="P$3"/>
+<connect gate="G$1" pin="VOUT" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6472,6 +6515,7 @@ naming: grid - package width</description>
 <part name="U$14" library="MOTOR_ENCODER" deviceset="MOTOR_ENCODER" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1"/>
+<part name="U$15" library="VOLTAGE_REGULATOR" deviceset="VOLTAGE_REGULATOR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6504,6 +6548,7 @@ naming: grid - package width</description>
 <instance part="U$14" gate="G$1" x="213.36" y="12.7"/>
 <instance part="GND1" gate="1" x="20.32" y="-22.86"/>
 <instance part="C1" gate="G$1" x="76.2" y="71.12"/>
+<instance part="U$15" gate="G$1" x="129.54" y="-60.96"/>
 </instances>
 <busses>
 </busses>
@@ -6933,7 +6978,8 @@ naming: grid - package width</description>
 <wire x1="17.78" y1="-20.32" x2="17.78" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="-7.62" x2="53.34" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="53.34" y="-7.62"/>
-<wire x1="25.4" y1="-20.32" x2="20.32" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-20.32" x2="22.86" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="-20.32" x2="20.32" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-5.08" x2="53.34" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="53.34" y="-5.08"/>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -6941,6 +6987,11 @@ naming: grid - package width</description>
 <wire x1="76.2" y1="66.04" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="66.04" x2="78.74" y2="45.72" width="0.1524" layer="91"/>
 <junction x="78.74" y="45.72"/>
+<pinref part="U$15" gate="G$1" pin="GND"/>
+<wire x1="114.3" y1="-48.26" x2="114.3" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="-45.72" x2="22.86" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="-45.72" x2="22.86" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="22.86" y="-20.32"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -6984,6 +7035,10 @@ naming: grid - package width</description>
 <junction x="124.46" y="-20.32"/>
 <wire x1="106.68" y1="53.34" x2="106.68" y2="45.72" width="0.1524" layer="91"/>
 <junction x="106.68" y="45.72"/>
+<pinref part="U$15" gate="G$1" pin="VOUT"/>
+<wire x1="111.76" y1="-48.26" x2="111.76" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-22.86" x2="149.86" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-22.86" x2="149.86" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
