@@ -60,8 +60,8 @@
 <library>
 <packages>
 <package name="IR_EMITTER">
-<pad name="1" x="-1.27" y="0" drill="0.6" shape="square"/>
-<pad name="2" x="0" y="0" drill="0.6" shape="square"/>
+<pad name="1" x="0" y="0" drill="0.9652"/>
+<pad name="2" x="2.54" y="0" drill="0.9652"/>
 </package>
 </packages>
 <symbols>
