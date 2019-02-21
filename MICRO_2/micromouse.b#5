@@ -1361,6 +1361,14 @@ type 0207, grid 10 mm</description>
 </package>
 </packages>
 </library>
+<library name="Battery_input">
+<packages>
+<package name="BATTERY_INPUT">
+<pad name="VIN" x="-1.27" y="0" drill="0.9652"/>
+<pad name="GND" x="1.27" y="0" drill="0.9652"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1580,6 +1588,7 @@ design rules under a new name.</description>
 <element name="U$1" library="MOTOR_ENCODER" package="MOTOR_ENCODER" value="MOTOR_ENCODER" x="-81.28" y="-368.3"/>
 <element name="U$4" library="motor_driver" package="MOTOR_DRIVER" value="MOTOR_DRIVER" x="-101.6" y="-365.76"/>
 <element name="U$10" library="VOLTAGE_REGULATOR" package="VOLTAGE_REGULATOR" value="VOLTAGE_REGULATOR" x="-102.87" y="-392.43"/>
+<element name="U$11" library="Battery_input" package="BATTERY_INPUT" value="BATTERY_INPUT" x="-104.14" y="-407.67"/>
 </elements>
 <signals>
 <signal name="GND">
