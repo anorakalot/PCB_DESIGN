@@ -214,36 +214,6 @@
 </package>
 </packages>
 </library>
-<library name="motor_driver">
-<packages>
-<package name="MOTOR_DRIVER">
-<wire x1="-2.54" y1="6.35" x2="-2.54" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="6.35" width="0.127" layer="21"/>
-<pad name="M1_ENABLE" x="-3.81" y="5.08" drill="0.6" shape="square"/>
-<pad name="M1_FWD_PWN" x="-3.81" y="3.81" drill="0.6" shape="square"/>
-<pad name="L_M1_1" x="-3.81" y="2.54" drill="0.6" shape="square"/>
-<pad name="L_GND_1" x="-3.81" y="1.27" drill="0.6" shape="square"/>
-<pad name="L_GND_2" x="-3.81" y="0" drill="0.6" shape="square"/>
-<pad name="L_M1_2" x="-3.81" y="-1.27" drill="0.6" shape="square"/>
-<pad name="M1_REV_PWN" x="-3.81" y="-2.54" drill="0.6" shape="square"/>
-<pad name="L_5V" x="-3.81" y="-3.81" drill="0.6" shape="square"/>
-<pad name="R_5V" x="3.81" y="5.08" drill="0.6" shape="square"/>
-<pad name="M2_REV_PWM" x="3.81" y="3.81" drill="0.6" shape="square"/>
-<pad name="R_M2_1" x="3.81" y="2.54" drill="0.6" shape="square"/>
-<pad name="R_GND_1" x="3.81" y="1.27" drill="0.6" shape="square"/>
-<pad name="R_GND_2" x="3.81" y="0" drill="0.6" shape="square"/>
-<pad name="R_M2_2" x="3.81" y="-1.27" drill="0.6" shape="square"/>
-<pad name="M2_FWD_PWN" x="3.81" y="-2.54" drill="0.6" shape="square"/>
-<pad name="M2_ENABLE" x="3.81" y="-3.81" drill="0.6" shape="square"/>
-<wire x1="-2.54" y1="6.35" x2="-1.27" y2="6.35" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="6.35" x2="-1.27" y2="5.08" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="5.08" x2="1.27" y2="5.08" width="0.127" layer="21"/>
-<wire x1="1.27" y1="5.08" x2="1.27" y2="6.35" width="0.127" layer="21"/>
-<wire x1="1.27" y1="6.35" x2="2.54" y2="6.35" width="0.127" layer="21"/>
-</package>
-</packages>
-</library>
 <library name="IR_EMITTER">
 <packages>
 <package name="IR_EMITTER">
@@ -1348,6 +1318,57 @@ type 0207, grid 10 mm</description>
 </package3d>
 </packages3d>
 </library>
+<library name="motor_driver">
+<packages>
+<package name="MOTOR_DRIVER">
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-12.7" x2="5.08" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="7.62" width="0.127" layer="21"/>
+<pad name="M1_ENABLE" x="-3.81" y="6.35" drill="0.9652"/>
+<pad name="M1_FWD_PWN" x="-3.81" y="3.81" drill="0.9652"/>
+<pad name="L_M1_1" x="-3.81" y="1.27" drill="0.9652"/>
+<pad name="L_GND_1" x="-3.81" y="-1.27" drill="0.9652"/>
+<pad name="L_GND_2" x="-3.81" y="-3.81" drill="0.9652"/>
+<pad name="L_M1_2" x="-3.81" y="-6.35" drill="0.9652"/>
+<pad name="M1_REV_PWN" x="-3.81" y="-8.89" drill="0.9652"/>
+<pad name="L_5V" x="-3.81" y="-11.43" drill="0.9652"/>
+<pad name="R_5V" x="3.81" y="6.35" drill="0.9652"/>
+<pad name="M2_REV_PWM" x="3.81" y="3.81" drill="0.9652"/>
+<pad name="R_M2_1" x="3.81" y="1.27" drill="0.9652"/>
+<pad name="R_GND_1" x="3.81" y="-1.27" drill="0.9652"/>
+<pad name="R_GND_2" x="3.81" y="-3.81" drill="0.9652"/>
+<pad name="R_M2_2" x="3.81" y="-6.35" drill="0.9652"/>
+<pad name="M2_FWD_PWN" x="3.81" y="-8.89" drill="0.9652"/>
+<pad name="M2_ENABLE" x="3.81" y="-11.43" drill="0.9652"/>
+<wire x1="-5.08" y1="7.62" x2="-1.27" y2="7.62" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="7.62" x2="-1.27" y2="6.35" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="6.35" x2="1.27" y2="6.35" width="0.127" layer="21"/>
+<wire x1="1.27" y1="6.35" x2="1.27" y2="7.62" width="0.127" layer="21"/>
+<wire x1="1.27" y1="7.62" x2="5.08" y2="7.62" width="0.127" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="VOLTAGE_REGULATOR">
+<packages>
+<package name="VOLTAGE_REGULATOR">
+<pad name="P$1" x="-2.54" y="0" drill="0.9652"/>
+<pad name="P$2" x="0" y="0" drill="0.9652"/>
+<pad name="P$3" x="2.54" y="0" drill="0.9652"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.127" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="Battery_input">
+<packages>
+<package name="BATTERY_INPUT">
+<pad name="VIN" x="-1.27" y="0" drill="0.9652"/>
+<pad name="GND" x="1.27" y="0" drill="0.9652"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1540,7 +1561,6 @@ design rules under a new name.</description>
 <elements>
 <element name="U$2" library="MOTOR_ENCODER" package="MOTOR_ENCODER" value="MOTOR_ENCODER" x="1.27" y="-368.3"/>
 <element name="U$3" library="Teensy_3_and_LC_Series_Boards_v1.4" package="TEENSY_3.0-3.2&amp;LC_DIL" value="TEENSY_3.1-3.2_DIL" x="-39.37" y="24.13"/>
-<element name="U$4" library="motor_driver" package="MOTOR_DRIVER" value="MOTOR_DRIVER" x="-64.77" y="10.16"/>
 <element name="U$6" library="IR_EMITTER" package="IR_EMITTER" value="IR_EMITTER" x="-2.54" y="-318.77"/>
 <element name="U$12" library="IR_RECIEVER" package="IR_RECIEVER" value="IR_RECIEVER" x="-1.27" y="-278.13"/>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/1" value="330" x="-62.23" y="-121.92">
@@ -1566,19 +1586,123 @@ design rules under a new name.</description>
 <element name="U$5" library="IR_RECIEVER" package="IR_RECIEVER" value="IR_RECIEVER" x="-64.77" y="-306.07"/>
 <element name="U$9" library="IR_EMITTER" package="IR_EMITTER" value="IR_EMITTER" x="-66.04" y="-346.71"/>
 <element name="U$1" library="MOTOR_ENCODER" package="MOTOR_ENCODER" value="MOTOR_ENCODER" x="-81.28" y="-368.3"/>
+<element name="U$4" library="motor_driver" package="MOTOR_DRIVER" value="MOTOR_DRIVER" x="-101.6" y="-365.76"/>
+<element name="U$10" library="VOLTAGE_REGULATOR" package="VOLTAGE_REGULATOR" value="VOLTAGE_REGULATOR" x="-102.87" y="-392.43"/>
+<element name="U$11" library="Battery_input" package="BATTERY_INPUT" value="BATTERY_INPUT" x="-104.14" y="-407.67"/>
 </elements>
 <signals>
-<signal name="GND">
-<contactref element="U$3" pad="GND"/>
-</signal>
 <signal name="AGND">
 <contactref element="U$3" pad="AGND"/>
 </signal>
-<signal name="3.3V">
+<signal name="N$1">
+<contactref element="U$11" pad="VIN"/>
+<contactref element="U$10" pad="P$3"/>
+<wire x1="-105.41" y1="-407.67" x2="-100.33" y2="-392.43" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="U$11" pad="GND"/>
+<contactref element="U$10" pad="P$2"/>
+<contactref element="U$3" pad="GND"/>
+<contactref element="U$4" pad="R_GND_2"/>
+<contactref element="U$4" pad="R_GND_1"/>
+<contactref element="U$4" pad="L_GND_1"/>
+<contactref element="U$4" pad="L_GND_2"/>
+<contactref element="U$1" pad="P$1"/>
+<contactref element="U$2" pad="P$1"/>
+<wire x1="-102.87" y1="-407.67" x2="-102.87" y2="-392.43" width="0" layer="19" extent="1-1"/>
+<wire x1="-105.41" y1="-369.57" x2="-102.87" y2="-392.43" width="0" layer="19" extent="1-1"/>
+<wire x1="-105.41" y1="-367.03" x2="-105.41" y2="-369.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-97.79" y1="-369.57" x2="-105.41" y2="-369.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-97.79" y1="-367.03" x2="-97.79" y2="-369.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-82.55" y1="-364.49" x2="-97.79" y2="-367.03" width="0" layer="19" extent="1-1"/>
+<wire x1="0" y1="-364.49" x2="-82.55" y2="-364.49" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.99" y1="40.64" x2="-82.55" y2="-364.49" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="U$10" pad="P$1"/>
+<contactref element="U$3" pad="VIN"/>
+<contactref element="U$4" pad="R_5V"/>
+<contactref element="U$4" pad="L_5V"/>
+<contactref element="U$1" pad="P$6"/>
+<contactref element="U$2" pad="P$6"/>
+<wire x1="-105.41" y1="-377.19" x2="-105.41" y2="-392.43" width="0" layer="19" extent="1-1"/>
+<wire x1="-97.79" y1="-359.41" x2="-105.41" y2="-377.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-82.55" y1="-377.19" x2="-105.41" y2="-377.19" width="0" layer="19" extent="1-1"/>
+<wire x1="0" y1="-377.19" x2="-82.55" y2="-377.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.75" y1="40.64" x2="-97.79" y2="-359.41" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$5">
 <contactref element="U$3" pad="3.3V"/>
 </signal>
-<signal name="VIN">
-<contactref element="U$3" pad="VIN"/>
+<signal name="N$6">
+<contactref element="U$4" pad="M1_FWD_PWN"/>
+<contactref element="U$3" pad="20/A6"/>
+<wire x1="-31.75" y1="25.4" x2="-105.41" y2="-361.95" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7">
+<contactref element="U$4" pad="M1_REV_PWN"/>
+<contactref element="U$3" pad="21/A7"/>
+<wire x1="-31.75" y1="27.94" x2="-105.41" y2="-374.65" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="U$4" pad="M2_REV_PWM"/>
+<contactref element="U$3" pad="22/A8"/>
+<wire x1="-31.75" y1="30.48" x2="-97.79" y2="-361.95" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="U$4" pad="M2_FWD_PWN"/>
+<contactref element="U$3" pad="23/A9"/>
+<wire x1="-31.75" y1="33.02" x2="-97.79" y2="-374.65" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$11">
+<contactref element="U$4" pad="L_M1_1"/>
+<contactref element="U$1" pad="P$2"/>
+<wire x1="-82.55" y1="-367.03" x2="-105.41" y2="-364.49" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="U$4" pad="L_M1_2"/>
+<contactref element="U$1" pad="P$3"/>
+<wire x1="-82.55" y1="-369.57" x2="-105.41" y2="-372.11" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$13">
+<contactref element="U$4" pad="R_M2_1"/>
+<contactref element="U$2" pad="P$2"/>
+<wire x1="0" y1="-367.03" x2="-97.79" y2="-364.49" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$14">
+<contactref element="U$2" pad="P$3"/>
+<contactref element="U$4" pad="R_M2_2"/>
+<wire x1="0" y1="-369.57" x2="-97.79" y2="-372.11" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="U$4" pad="M1_ENABLE"/>
+<contactref element="U$3" pad="12"/>
+<wire x1="-46.99" y1="7.62" x2="-105.41" y2="-359.41" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$10">
+<contactref element="U$4" pad="M2_ENABLE"/>
+<contactref element="U$3" pad="13"/>
+<wire x1="-31.75" y1="7.62" x2="-97.79" y2="-377.19" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<contactref element="U$1" pad="P$4"/>
+<contactref element="U$3" pad="10"/>
+<wire x1="-46.99" y1="12.7" x2="-82.55" y2="-372.11" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$16">
+<contactref element="U$1" pad="P$5"/>
+<contactref element="U$3" pad="11"/>
+<wire x1="-46.99" y1="10.16" x2="-82.55" y2="-374.65" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$17">
+<contactref element="U$2" pad="P$5"/>
+<contactref element="U$3" pad="8"/>
+<wire x1="-46.99" y1="17.78" x2="0" y2="-374.65" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$18">
+<contactref element="U$2" pad="P$4"/>
+<contactref element="U$3" pad="9"/>
+<wire x1="-46.99" y1="15.24" x2="0" y2="-372.11" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
