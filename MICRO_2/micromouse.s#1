@@ -5140,7 +5140,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="U$11" gate="G$1" pin="BAT_GND"/>
 </segment>
 </net>
-<net name="5V_VCC" class="0">
+<net name="N$3" class="0">
 <segment>
 <pinref part="U$10" gate="G$1" pin="VOUT"/>
 <pinref part="U$3" gate="G$1" pin="VIN"/>
@@ -5176,10 +5176,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="-5.08" y="-63.5"/>
 <wire x1="-5.08" y1="-35.56" x2="-5.08" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="-5.08" y="-35.56"/>
-<label x="0" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="3.3V_VCC" class="0">
+<net name="N$5" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="3.3V"/>
 <wire x1="-20.32" y1="-38.1" x2="-7.62" y2="-38.1" width="0.1524" layer="91"/>

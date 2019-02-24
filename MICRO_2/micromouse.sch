@@ -5138,9 +5138,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="45.72" y1="55.88" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
 <junction x="45.72" y="33.02"/>
 <pinref part="U$11" gate="G$1" pin="BAT_GND"/>
+<label x="91.44" y="-106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="5V_VCC" class="0">
 <segment>
 <pinref part="U$10" gate="G$1" pin="VOUT"/>
 <pinref part="U$3" gate="G$1" pin="VIN"/>
@@ -5176,9 +5177,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="-5.08" y="-63.5"/>
 <wire x1="-5.08" y1="-35.56" x2="-5.08" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="-5.08" y="-35.56"/>
+<label x="0" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="3.3V_VCC" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="3.3V"/>
 <wire x1="-20.32" y1="-38.1" x2="-7.62" y2="-38.1" width="0.1524" layer="91"/>
@@ -5203,6 +5205,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="-7.62" y="2.54"/>
 <wire x1="-10.16" y1="5.08" x2="-7.62" y2="5.08" width="0.1524" layer="91"/>
 <junction x="-7.62" y="5.08"/>
+<label x="-2.54" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -5445,9 +5448,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,-20.32,-43.18,U$3,GND,N$2,,,"/>
-<approved hash="104,1,-20.32,-38.1,U$3,3.3V,N$5,,,"/>
-<approved hash="104,1,-20.32,-35.56,U$3,VIN,N$3,,,"/>
+<approved hash="104,1,-20.32,-38.1,U$3,3.3V,3.3V_VCC,,,"/>
+<approved hash="104,1,-20.32,-35.56,U$3,VIN,5V_VCC,,,"/>
 </errors>
 </schematic>
 </drawing>
