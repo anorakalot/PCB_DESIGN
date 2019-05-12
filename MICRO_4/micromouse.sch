@@ -5051,6 +5051,56 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="MOTOR_BRACKET">
+<packages>
+<package name="MOTOR_BRACKET">
+<hole x="-18" y="0" drill="0.9652"/>
+<hole x="18" y="0" drill="0.9652"/>
+<wire x1="-16.51" y1="2.54" x2="-21.59" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-21.59" y1="2.54" x2="-21.59" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-21.59" y1="-2.54" x2="-16.51" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="2.54" x2="-16.51" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="3.81" x2="16.51" y2="3.81" width="0.127" layer="21"/>
+<wire x1="16.51" y1="3.81" x2="16.51" y2="2.54" width="0.127" layer="21"/>
+<wire x1="16.51" y1="2.54" x2="21.59" y2="2.54" width="0.127" layer="21"/>
+<wire x1="21.59" y1="2.54" x2="21.59" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="21.59" y1="-2.54" x2="16.51" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="16.51" y1="-2.54" x2="16.51" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="16.51" y1="-3.81" x2="-16.51" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="-3.81" x2="-16.51" y2="-2.54" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MOTOR_BRACKET">
+<wire x1="-22.86" y1="2.54" x2="-30.48" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="2.54" x2="-30.48" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="-5.08" x2="-22.86" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-5.08" x2="-22.86" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="17.78" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-5.08" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-22.86" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="5.08" x2="-22.86" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MOTOR_BRACKET">
+<gates>
+<gate name="G$1" symbol="MOTOR_BRACKET" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOTOR_BRACKET">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5096,6 +5146,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U$23" library="IR_RECIEVER" deviceset="IR_RECIEVER" device=""/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/1" value="330"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/1" value="10K"/>
+<part name="U$24" library="MOTOR_BRACKET" deviceset="MOTOR_BRACKET" device=""/>
+<part name="U$25" library="MOTOR_BRACKET" deviceset="MOTOR_BRACKET" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5137,6 +5189,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="U$23" gate="G$1" x="-353.06" y="17.78"/>
 <instance part="R11" gate="G$1" x="-393.7" y="-20.32"/>
 <instance part="R12" gate="G$1" x="-360.68" y="-20.32"/>
+<instance part="U$24" gate="G$1" x="-381" y="-91.44"/>
+<instance part="U$25" gate="G$1" x="-381" y="-109.22"/>
 </instances>
 <busses>
 </busses>
@@ -5564,8 +5618,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="93.98" y1="-10.16" x2="93.98" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="U$10" gate="G$1" pin="GND"/>
 <wire x1="93.98" y1="-15.24" x2="58.42" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="-15.24" x2="58.42" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="-12.7" x2="58.42" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-15.24" x2="58.42" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-15.24" x2="58.42" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-40.64" x2="33.02" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="58.42" y="-15.24"/>
@@ -5703,8 +5756,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-266.7" y1="116.84" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="116.84" x2="83.82" y2="33.02" width="0.1524" layer="91"/>
 <junction x="83.82" y="33.02"/>
-<wire x1="76.2" y1="-12.7" x2="58.42" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="58.42" y="-12.7"/>
 <wire x1="81.28" y1="124.46" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
 <junction x="81.28" y="33.02"/>
 <wire x1="-386.08" y1="129.54" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
