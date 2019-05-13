@@ -60,8 +60,8 @@
 <library>
 <packages>
 <package name="IR_RECIEVER">
-<pad name="1" x="-1.27" y="0" drill="0.9652"/>
-<pad name="2" x="1.27" y="0" drill="0.9652"/>
+<pad name="REC_ANO" x="-1.27" y="0" drill="0.9652"/>
+<pad name="REC_CAT" x="1.27" y="0" drill="0.9652"/>
 </package>
 </packages>
 <symbols>
@@ -80,8 +80,8 @@
 <devices>
 <device name="" package="IR_RECIEVER">
 <connects>
-<connect gate="G$1" pin="REC_ANODE" pad="1"/>
-<connect gate="G$1" pin="REC_CATHODE" pad="2"/>
+<connect gate="G$1" pin="REC_ANODE" pad="REC_ANO"/>
+<connect gate="G$1" pin="REC_CATHODE" pad="REC_CAT"/>
 </connects>
 <technologies>
 <technology name=""/>

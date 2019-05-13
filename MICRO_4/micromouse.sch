@@ -332,8 +332,8 @@
 <library name="IR_EMITTER">
 <packages>
 <package name="IR_EMITTER">
-<pad name="EMI_ANO" x="0" y="0" drill="0.9652"/>
-<pad name="EMI_CAT" x="2.54" y="0" drill="0.9652"/>
+<pad name="EMI_ANO" x="-1.27" y="0" drill="0.9652"/>
+<pad name="EMI_CAT" x="1.27" y="0" drill="0.9652"/>
 </package>
 </packages>
 <symbols>
@@ -5025,49 +5025,23 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="THRU_HOLE">
-<packages>
-<package name="THRU_HOLE">
-<hole x="0" y="0" drill="1.2192"/>
-</package>
-</packages>
-<symbols>
-<symbol name="THRU_HOLE">
-<circle x="-7.62" y="-5.08" radius="2.54" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="THRU_HOLE">
-<gates>
-<gate name="G$1" symbol="THRU_HOLE" x="7.62" y="5.08"/>
-</gates>
-<devices>
-<device name="" package="THRU_HOLE">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="MOTOR_BRACKET">
 <packages>
 <package name="MOTOR_BRACKET">
-<hole x="-18" y="0" drill="0.9652"/>
-<hole x="18" y="0" drill="0.9652"/>
-<wire x1="-16.51" y1="2.54" x2="-21.59" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-21.59" y1="2.54" x2="-21.59" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-21.59" y1="-2.54" x2="-16.51" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-16.51" y1="2.54" x2="-16.51" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-16.51" y1="3.81" x2="16.51" y2="3.81" width="0.127" layer="21"/>
-<wire x1="16.51" y1="3.81" x2="16.51" y2="2.54" width="0.127" layer="21"/>
-<wire x1="16.51" y1="2.54" x2="21.59" y2="2.54" width="0.127" layer="21"/>
-<wire x1="21.59" y1="2.54" x2="21.59" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="21.59" y1="-2.54" x2="16.51" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="16.51" y1="-2.54" x2="16.51" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="16.51" y1="-3.81" x2="-16.51" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-16.51" y1="-3.81" x2="-16.51" y2="-2.54" width="0.127" layer="21"/>
+<hole x="-9" y="0" drill="0.9652"/>
+<hole x="9" y="0" drill="0.9652"/>
+<wire x1="-10" y1="2" x2="-12" y2="2" width="0.127" layer="21"/>
+<wire x1="-12" y1="2" x2="-12" y2="-2" width="0.127" layer="21"/>
+<wire x1="-12" y1="-2" x2="-10" y2="-2" width="0.127" layer="21"/>
+<wire x1="-10" y1="-2" x2="-10" y2="-4" width="0.127" layer="21"/>
+<wire x1="-10" y1="-4" x2="10" y2="-4" width="0.127" layer="21"/>
+<wire x1="10" y1="-4" x2="10" y2="-2" width="0.127" layer="21"/>
+<wire x1="10" y1="-2" x2="12" y2="-2" width="0.127" layer="21"/>
+<wire x1="12" y1="-2" x2="12" y2="2" width="0.127" layer="21"/>
+<wire x1="12" y1="2" x2="10" y2="2" width="0.127" layer="21"/>
+<wire x1="10" y1="2" x2="10" y2="4" width="0.127" layer="21"/>
+<wire x1="10" y1="4" x2="-10" y2="4" width="0.127" layer="21"/>
+<wire x1="-10" y1="4" x2="-10" y2="2" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -5138,16 +5112,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U$17" library="IR_RECIEVER" deviceset="IR_RECIEVER" device=""/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/1" value="330"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/1" value="10K"/>
-<part name="U$18" library="THRU_HOLE" deviceset="THRU_HOLE" device=""/>
-<part name="U$19" library="THRU_HOLE" deviceset="THRU_HOLE" device=""/>
-<part name="U$20" library="THRU_HOLE" deviceset="THRU_HOLE" device=""/>
-<part name="U$21" library="THRU_HOLE" deviceset="THRU_HOLE" device=""/>
 <part name="U$22" library="IR_EMITTER" deviceset="IR_EMITTER" device=""/>
 <part name="U$23" library="IR_RECIEVER" deviceset="IR_RECIEVER" device=""/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/1" value="330"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/1" value="10K"/>
-<part name="U$24" library="MOTOR_BRACKET" deviceset="MOTOR_BRACKET" device=""/>
-<part name="U$25" library="MOTOR_BRACKET" deviceset="MOTOR_BRACKET" device=""/>
+<part name="U$18" library="MOTOR_BRACKET" deviceset="MOTOR_BRACKET" device=""/>
+<part name="U$19" library="MOTOR_BRACKET" deviceset="MOTOR_BRACKET" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5181,16 +5151,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="U$17" gate="G$1" x="-269.24" y="17.78"/>
 <instance part="R9" gate="G$1" x="-309.88" y="-20.32"/>
 <instance part="R10" gate="G$1" x="-276.86" y="-20.32"/>
-<instance part="U$18" gate="G$1" x="-289.56" y="-111.76"/>
-<instance part="U$19" gate="G$1" x="-289.56" y="-124.46"/>
-<instance part="U$20" gate="G$1" x="-289.56" y="-139.7"/>
-<instance part="U$21" gate="G$1" x="-289.56" y="-154.94"/>
 <instance part="U$22" gate="G$1" x="-381" y="5.08"/>
 <instance part="U$23" gate="G$1" x="-353.06" y="17.78"/>
 <instance part="R11" gate="G$1" x="-393.7" y="-20.32"/>
 <instance part="R12" gate="G$1" x="-360.68" y="-20.32"/>
-<instance part="U$24" gate="G$1" x="-381" y="-91.44"/>
-<instance part="U$25" gate="G$1" x="-381" y="-109.22"/>
+<instance part="U$18" gate="G$1" x="-345.44" y="-93.98"/>
+<instance part="U$19" gate="G$1" x="-345.44" y="-111.76"/>
 </instances>
 <busses>
 </busses>
