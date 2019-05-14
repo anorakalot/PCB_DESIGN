@@ -332,8 +332,8 @@
 <library name="IR_EMITTER">
 <packages>
 <package name="IR_EMITTER">
-<pad name="EMI_ANO" x="0" y="0" drill="0.9652"/>
-<pad name="EMI_CAT" x="2.54" y="0" drill="0.9652"/>
+<pad name="EMI_ANO" x="-1.27" y="0" drill="0.9652"/>
+<pad name="EMI_CAT" x="1.27" y="0" drill="0.9652"/>
 </package>
 </packages>
 <symbols>

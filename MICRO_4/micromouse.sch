@@ -5075,6 +5075,42 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="BALL_CASTER">
+<packages>
+<package name="BALL_CASTER">
+<wire x1="-12.7" y1="2.54" x2="12.7" y2="2.54" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-2.54" x2="-12.7" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="-2.54" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BALL_CASTER">
+<wire x1="5.08" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-10.16" y2="2.54" width="0.254" layer="94" curve="90"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-10.16" y2="0" width="0.254" layer="94" curve="-90"/>
+<wire x1="5.08" y1="5.08" x2="7.62" y2="2.54" width="0.254" layer="94" curve="-90"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="7.62" y2="0" width="0.254" layer="94" curve="90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BALL_CASTER">
+<gates>
+<gate name="G$1" symbol="BALL_CASTER" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="BALL_CASTER">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5118,6 +5154,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/1" value="10K"/>
 <part name="U$18" library="MOTOR_BRACKET" deviceset="MOTOR_BRACKET" device=""/>
 <part name="U$19" library="MOTOR_BRACKET" deviceset="MOTOR_BRACKET" device=""/>
+<part name="U$20" library="BALL_CASTER" deviceset="BALL_CASTER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5157,6 +5194,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="R12" gate="G$1" x="-360.68" y="-20.32"/>
 <instance part="U$18" gate="G$1" x="-345.44" y="-93.98"/>
 <instance part="U$19" gate="G$1" x="-345.44" y="-111.76"/>
+<instance part="U$20" gate="G$1" x="-365.76" y="-73.66"/>
 </instances>
 <busses>
 </busses>
