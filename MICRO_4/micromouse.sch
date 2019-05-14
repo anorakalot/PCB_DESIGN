@@ -5825,6 +5825,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <approved hash="204,1,-20.32,-55.88,U$3,AGND,,,,"/>
 <approved hash="104,1,-20.32,-38.1,U$3,3.3V,3.3V_VCC,,,"/>
 <approved hash="104,1,-20.32,-35.56,U$3,VIN,5V_VCC,,,"/>
+<approved hash="110,1,-124.46,-43.18,N$6,N$11,,,,"/>
+<approved hash="110,1,-124.46,-43.18,N$6,N$11,,,,"/>
+<approved hash="110,1,-124.46,-43.18,N$6,N$11,,,,"/>
+<approved hash="110,1,-124.46,-43.18,N$6,N$11,,,,"/>
+<approved hash="110,1,-124.46,-43.18,N$11,N$6,,,,"/>
+<approved hash="110,1,-124.46,-43.18,N$11,N$6,,,,"/>
+<approved hash="110,1,-124.46,-43.18,N$11,N$6,,,,"/>
+<approved hash="110,1,-124.46,-43.18,N$11,N$6,,,,"/>
 </errors>
 </schematic>
 </drawing>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1408,6 +1408,16 @@ type 0207, grid 10 mm</description>
 </package>
 </packages>
 </library>
+<library name="BALL_CASTER">
+<packages>
+<package name="BALL_CASTER">
+<wire x1="-12.7" y1="2.54" x2="12.7" y2="2.54" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-2.54" x2="-12.7" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="-2.54" width="0.127" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1655,6 +1665,7 @@ design rules under a new name.</description>
 <element name="U$9" library="IR_EMITTER" package="IR_EMITTER" value="IR_EMITTER" x="60.88" y="71.39"/>
 <element name="U$18" library="MOTOR_BRACKET" package="MOTOR_BRACKET" value="MOTOR_BRACKET" x="17" y="9"/>
 <element name="U$19" library="MOTOR_BRACKET" package="MOTOR_BRACKET" value="MOTOR_BRACKET" x="17" y="71"/>
+<element name="U$20" library="BALL_CASTER" package="BALL_CASTER" value="BALL_CASTER" x="72" y="40" rot="R270"/>
 </elements>
 <signals>
 <signal name="AGND">
@@ -1673,10 +1684,11 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="VCC"/>
 <contactref element="U$2" pad="VCC"/>
 <contactref element="U$13" pad="VIN"/>
+<wire x1="27.67" y1="48.53" x2="27.94" y2="48.53" width="0.3048" layer="1"/>
 <wire x1="27.94" y1="48.53" x2="36.83" y2="55.88" width="0" layer="19" extent="1-1"/>
-<wire x1="24.13" y1="36.83" x2="27.94" y2="48.53" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="36.83" x2="27.67" y2="48.53" width="0" layer="19" extent="1-1"/>
 <wire x1="15.24" y1="30.48" x2="24.13" y2="36.83" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="52.07" x2="27.94" y2="48.53" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="52.07" x2="27.67" y2="48.53" width="0" layer="19" extent="1-1"/>
 <wire x1="6.35" y1="44.45" x2="12.7" y2="52.07" width="0" layer="19" extent="1-1"/>
 <wire x1="48.26" y1="29.21" x2="24.13" y2="36.83" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1900,12 +1912,12 @@ design rules under a new name.</description>
 <contactref element="U$5" pad="REC_ANO"/>
 <contactref element="U$17" pad="REC_ANO"/>
 <contactref element="U$15" pad="REC_ANO"/>
-<polygon width="0.1524" layer="1">
-<vertex x="99.06" y="2.54"/>
-<vertex x="99.06" y="77.47"/>
-<vertex x="1.27" y="77.47"/>
-<vertex x="1.27" y="2.54"/>
-</polygon>
+<wire x1="89.71" y1="50.91" x2="92.798025" y2="67.681971875" width="0" layer="19" extent="1-1"/>
+<wire x1="89.71" y1="27.4" x2="89.71" y2="50.91" width="0" layer="19" extent="1-1"/>
+<wire x1="90.001971875" y1="10.721971875" x2="89.71" y2="27.4" width="0" layer="19" extent="1-1"/>
+<wire x1="55.61" y1="11.08" x2="90.001971875" y2="10.721971875" width="0" layer="19" extent="1-1"/>
+<wire x1="54.88" y1="68.58" x2="92.798025" y2="67.681971875" width="0" layer="19" extent="1-1"/>
+<wire x1="33.02" y1="48.53" x2="54.88" y2="68.58" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
