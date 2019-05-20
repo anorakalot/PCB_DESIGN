@@ -1686,10 +1686,10 @@ design rules under a new name.</description>
 <contactref element="U$13" pad="VIN"/>
 <wire x1="27.67" y1="48.53" x2="27.94" y2="48.53" width="0.3048" layer="1"/>
 <polygon width="0.1524" layer="1">
-<vertex x="2.27" y="10.27"/>
-<vertex x="1.27" y="68.47"/>
-<vertex x="99.06" y="68.47"/>
-<vertex x="100.06" y="10.27"/>
+<vertex x="1.27" y="1.27"/>
+<vertex x="1.27" y="77.47"/>
+<vertex x="99.06" y="77.47"/>
+<vertex x="99.06" y="1.27"/>
 </polygon>
 </signal>
 <signal name="M1_FWD_PWM">
@@ -2194,10 +2194,10 @@ design rules under a new name.</description>
 <contactref element="R8" pad="2"/>
 <contactref element="R10" pad="2"/>
 <polygon width="0.1524" layer="16">
-<vertex x="101.06" y="9.27"/>
-<vertex x="100.06" y="71.74"/>
-<vertex x="2.27" y="71.74"/>
-<vertex x="3.27" y="9.27"/>
+<vertex x="99.06" y="1.27"/>
+<vertex x="99.06" y="78.74"/>
+<vertex x="1.27" y="78.74"/>
+<vertex x="1.27" y="1.27"/>
 </polygon>
 </signal>
 <signal name="3.3V_VCC">
