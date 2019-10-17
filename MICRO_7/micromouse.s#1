@@ -5155,7 +5155,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U$18" library="MOTOR_BRACKET" deviceset="MOTOR_BRACKET" device=""/>
 <part name="U$19" library="MOTOR_BRACKET" deviceset="MOTOR_BRACKET" device=""/>
 <part name="U$20" library="BALL_CASTER" deviceset="BALL_CASTER" device=""/>
-<part name="U$21" library="BALL_CASTER" deviceset="BALL_CASTER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5196,7 +5195,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="U$18" gate="G$1" x="-345.44" y="-93.98"/>
 <instance part="U$19" gate="G$1" x="-345.44" y="-111.76"/>
 <instance part="U$20" gate="G$1" x="-365.76" y="-73.66"/>
-<instance part="U$21" gate="G$1" x="-332.74" y="-73.66"/>
 </instances>
 <busses>
 </busses>

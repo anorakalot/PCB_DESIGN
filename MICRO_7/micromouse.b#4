@@ -1663,7 +1663,7 @@ design rules under a new name.</description>
 <element name="U$7" library="IR_EMITTER" package="IR_EMITTER" value="IR_EMITTER" x="61.61" y="17.62"/>
 <element name="U$8" library="IR_RECIEVER" package="IR_RECIEVER" value="IR_RECIEVER" x="55.88" y="18.08"/>
 <element name="U$9" library="IR_EMITTER" package="IR_EMITTER" value="IR_EMITTER" x="61.88" y="62.39"/>
-<element name="U$18" library="MOTOR_BRACKET" package="MOTOR_BRACKET" value="MOTOR_BRACKET" x="17" y="11.62"/>
+<element name="U$18" library="MOTOR_BRACKET" package="MOTOR_BRACKET" value="MOTOR_BRACKET" x="28.43" y="-8.7"/>
 <element name="U$19" library="MOTOR_BRACKET" package="MOTOR_BRACKET" value="MOTOR_BRACKET" x="17" y="68.38"/>
 <element name="U$20" library="BALL_CASTER" package="BALL_CASTER" value="BALL_CASTER" x="72" y="40" rot="R270"/>
 </elements>
